@@ -1,1 +1,10 @@
-
+MyWebsite/
+│── index.html
+│── about.html
+│── study-materials.html
+│── projects.html
+│── contact.html
+│── style.css
+│── img/
+│── js/
+│── css/
