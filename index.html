@@ -1,28 +1,46 @@
+<!-- index.html - Homepage -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Devarshi Tadvi - Chemical Engineering</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <a href="about.html">About</a>
-            <a href="study-materials.html">Study Materials</a>
-            <a href="projects.html">Research Projects</a>
-            <a href="news.html">News</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Devarshi Tadvi</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="study-materials.html">Study Materials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Research Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Welcome to My Chemical Engineering Website</h1>
+        <p>Explore study materials, research projects, and news.</p>
     </header>
-    <main>
+
+    <div class="container my-5">
         <h2>Latest Updates</h2>
-        <p>Explore study materials, projects, and news.</p>
-    </main>
-    <footer>
+        <p>Welcome! This website is dedicated to sharing educational resources, research insights, and news in the field of chemical engineering.</p>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
         <p>© 2025 Devarshi Tadvi. All Rights Reserved.</p>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
